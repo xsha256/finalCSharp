@@ -10,7 +10,7 @@ public class Program
         bool salir = false;
 
         while (!salir)
-        {
+        {  
             WriteLine("╔══════════════════════════════════════════════════╗");
             WriteLine("║                  Menú Principal                  ║");
             WriteLine("╠═════════╦════════════════════════════════════════╣");
