@@ -11,23 +11,30 @@ public class Program
 
         while (!salir)
         {
-            WriteLine("*********** Menú Principal ***********");
-            WriteLine("1. Numero menor mayor");
-            WriteLine("2. Numero par o impar");
-            WriteLine("3. Año bisiesto o no");
-            WriteLine("4. Palindromo o no");
-            WriteLine("5. Ordenar una lista");
-            WriteLine("6. Factorial");
-            WriteLine("7. Numero primo o no");
-            WriteLine("8. Area perimetro");
-            WriteLine("9. Suma numeros pares");
-            WriteLine("10. Numero negativo o positivo");
-            WriteLine("11. Media lista");
-            WriteLine("12. Adivinar numero");
-            WriteLine("13. Anagrama");
-            WriteLine("14. Eliminar duplicados");
-            WriteLine("15. Capicua");
-            WriteLine("0. Salir");
+            WriteLine("╔══════════════════════════════════════════════════╗");
+            WriteLine("║                  Menú Principal                  ║");
+            WriteLine("╠═════════╦════════════════════════════════════════╣");
+            WriteLine("║ Opción  ║             Descripción                ║");
+            WriteLine("╠═════════╬════════════════════════════════════════╣");
+            WriteLine("║    1    ║        Numero menor y mayor            ║");
+            WriteLine("║    2    ║          Numero par o impar            ║");
+            WriteLine("║    3    ║           Año bisiesto o no            ║");
+            WriteLine("║    4    ║           Palindromo o no              ║");
+            WriteLine("║    5    ║            Ordenar una lista           ║");
+            WriteLine("║    6    ║               Factorial                ║");
+            WriteLine("║    7    ║          Numero primo o no             ║");
+            WriteLine("║    8    ║           Calcular área y perímetro    ║");
+            WriteLine("║    9    ║          Suma de números pares         ║");
+            WriteLine("║    10   ║       Identificar número positivo      ║");
+            WriteLine("║         ║             o negativo                 ║");
+            WriteLine("║    11   ║              Media lista               ║");
+            WriteLine("║    12   ║            Adivinar número             ║");
+            WriteLine("║    13   ║                Anagrama                ║");
+            WriteLine("║    14   ║            Eliminar duplicados         ║");
+            WriteLine("║    15   ║                Capicúa                 ║");
+            WriteLine("║    0    ║                  Salir                 ║");
+            WriteLine("╚═════════╩════════════════════════════════════════╝");
+
 
             Write("Ingrese el número de opción: ");
             string? opcionStr = ReadLine();
