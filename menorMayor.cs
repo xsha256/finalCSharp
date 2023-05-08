@@ -8,6 +8,11 @@ namespace menorMayor
         {
             Write("Introduce una lista de números separados por espacios: ");
             string? input = ReadLine();
+            if (input == null)
+            {
+                WriteLine("Número inválido");
+                return;
+            }
 
             string[]? numeros = input.Split();
             WriteLine(string.Join(", ", numeros));

@@ -9,6 +9,11 @@ namespace ordenarLista
             List<string> nombres = new List<string>();
             Write("Ingrese nombres separado con espacios: ");
             string? input = ReadLine();
+            if (input == null)
+            {
+                WriteLine("Número inválido");
+                return;
+            }
             string[]? nombresLista = input.Split();
 
             nombres.AddRange(nombresLista);

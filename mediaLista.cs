@@ -7,7 +7,10 @@ namespace mediaLista
         {
             Write("Introduce una lista de números separados por espacios: ");
             string? input = ReadLine();
-
+            if (input == null){
+                WriteLine("Número inválido");
+                return;
+            }
             string[]? numeros = input.Split();
             WriteLine(string.Join(", ", numeros));
              int[] numerosInt = Array.ConvertAll(numeros, s => int.Parse(s));

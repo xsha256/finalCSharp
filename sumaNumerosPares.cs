@@ -10,7 +10,11 @@ namespace sumaNumerosPares
             int suma = 0;
             Write("Introduce una lista de números separados por espacios: ");
             string? input = ReadLine();
-
+            if (input == null)
+            {
+                WriteLine("Número inválido");
+                return;
+            }
             string[] numeros = input.Split();
             WriteLine(string.Join(", ", numeros));
 
@@ -24,7 +28,7 @@ namespace sumaNumerosPares
 
             }
 
-            WriteLine($"La suma de los números pares es {suma}" );
+            WriteLine($"La suma de los números pares es {suma}");
 
             ReadKey();
         }
