@@ -12,7 +12,7 @@ namespace anagrama
                 WriteLine("Palabra inválida");
                 return;
             }
-            WriteLine("Introduce la cadena 1: ");
+            WriteLine("Introduce la cadena 2: ");
             string? palabra2 = ReadLine();
             if (palabra2 == null)
             {
