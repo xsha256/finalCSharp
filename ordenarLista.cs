@@ -4,7 +4,7 @@ namespace ordenarLista
 {
     public class OrdenarLista
     {
-        public static void ordenar()
+        public  void ordenar()
         {
             List<string> nombres = new List<string>();
             Write("Ingrese nombres separado con espacios: ");

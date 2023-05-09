@@ -4,7 +4,7 @@ namespace primo
 {
     public class Primo
     {
-        public static void primo()
+        public  void primo()
         {
             int num = 0, i;
             bool esPrimo = true;

@@ -5,7 +5,7 @@ namespace palindromo
 {
     public class Palindromo
     {
-        public static void palindromo()
+        public  void palindromo()
         {
             Write("Ingrese una palabra o frase: ");
             string? texto = ReadLine();

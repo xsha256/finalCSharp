@@ -3,7 +3,7 @@ namespace anagrama
 {
     public class Anagrama
     {
-        public static void anagrama()
+        public  void anagrama()
         {
             WriteLine("Introduce la cadena 1: ");
             string? palabra1 = ReadLine();

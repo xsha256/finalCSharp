@@ -1,7 +1,4 @@
 ﻿using static System.Console;
-using menorMayor;
-using parImpar;
-
 
 public class Program
 {
@@ -50,63 +47,63 @@ public class Program
             switch (opcion)
             {
                 case 1:
-                    MenorMayor.menor();
+                    new menorMayor.MenorMayor().menor();
 
                     break;
                 case 2:
-                    ParImpar.par();
+                    new parImpar.ParImpar().par();
 
                     break;
                 case 3:
-                    anyoBisiesto.AnyoBisiesto.anyo();
+                    new anyoBisiesto.AnyoBisiesto().anyo();
 
                     break;
                 case 4:
-                    palindromo.Palindromo.palindromo();
+                    new palindromo.Palindromo().palindromo();
 
                     break;
                 case 5:
-                    ordenarLista.OrdenarLista.ordenar();
+                    new ordenarLista.OrdenarLista().ordenar();
 
                     break;
                 case 6:
-                    factorial.Factorial.fact();
+                    new factorial.Factorial().fact();
 
                     break;
                 case 7:
-                    primo.Primo.primo();
+                    new primo.Primo().primo();
 
                     break;
                 case 8:
-                    cubo.Cubo.cubo();
+                    new cubo.Cubo().cubo();
 
                     break;
                 case 9:
-                    sumaNumerosPares.SumaNumerosPares.suma();
+                    new sumaNumerosPares.SumaNumerosPares().suma();
 
                     break;
                 case 10:
-                    numPosNeg.NumPosNeg.numPos();
+                    new numPosNeg.NumPosNeg().numPos();
 
                     break;
                 case 11:
-                    mediaLista.MediaLista.media();
+                    new mediaLista.MediaLista().media();
 
                     break;
                 case 12:
-                    adivinarNum.AdivinarNumero.adivinar();
+                    new adivinarNum.AdivinarNumero().adivinar();
 
                     break;
                 case 13:
-                    anagrama.Anagrama.anagrama();
+                    new anagrama.Anagrama().anagrama();
 
                     break;
                 case 14:
-                    eliminarDuplicados.EliminarDuplicados.eliminar();
+                    new eliminarDuplicados.EliminarDuplicados().eliminar();
 
                     break;
                 case 15:
-                    capicua.Capicua.capicua();
+                    new capicua.Capicua().capicua();
                     break;
                 case 0:
                     WriteLine("Saliendo del programa...");

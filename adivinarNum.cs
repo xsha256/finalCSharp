@@ -3,7 +3,7 @@ namespace adivinarNum
 {
     public class AdivinarNumero
     {
-        public static void adivinar()
+        public void adivinar()
         {
             Random random = new Random();
             int numeroAleatorio = random.Next(1, 101);

@@ -5,7 +5,7 @@ namespace anyoBisiesto
 {
     public class AnyoBisiesto
     {
-        public static void anyo()
+        public void anyo()
         {
             Write("Ingrese un año: ");
             int anio = 0;

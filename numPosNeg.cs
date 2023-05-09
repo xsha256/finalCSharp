@@ -4,7 +4,7 @@ namespace numPosNeg
 {
     public class NumPosNeg
     {
-        public static void numPos()
+        public  void numPos()
         {
             int num;
 

@@ -5,14 +5,13 @@ namespace parImpar
 {
     public class ParImpar
     {
-        public static void par()
+        public  void par()
         {
             Write("Intoduce un número: ");
             String? input = ReadLine();
 
             if (int.TryParse(input, out int num))
             {
-                WriteLine($"Tipo de num: {num.GetType()}");
 
                 if (num % 2 == 0)
                 {

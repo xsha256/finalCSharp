@@ -4,8 +4,9 @@ namespace menorMayor
 {
     public class MenorMayor
     {
-        public static void menor()
+        public void menor()
         {
+
             Write("Introduce una lista de números separados por espacios: ");
             string? input = ReadLine();
             if (input == null)
@@ -14,14 +15,16 @@ namespace menorMayor
                 return;
             }
 
-            string[]? numeros = input.Split();
+            string[] numeros = input.Split();
             WriteLine(string.Join(", ", numeros));
 
-            int? mayor = int.MinValue;
-            int? menor = int.MaxValue;
+            int mayor = int.MinValue;
+            int menor = int.MaxValue;
+            bool numeroInvalido = false;
 
             foreach (string numero in numeros)
             {
+
                 if (int.TryParse(numero, out int num))
                 {
                     if (num > mayor)
@@ -33,10 +36,22 @@ namespace menorMayor
                         menor = num;
                     }
                 }
+
+                else
+                {
+                    WriteLine("Número inválido");
+                    numeroInvalido = true;
+                    break;
+                }
             }
 
-            WriteLine($"El número mayor es: {mayor}");
-            WriteLine($"El número menor es: {menor}");
+            if (!numeroInvalido)
+            {
+                WriteLine($"El número mayor es: {mayor}");
+                WriteLine($"El número menor es: {menor}");
+            }
+
         }
+
     }
 }

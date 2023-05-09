@@ -3,7 +3,7 @@ namespace capicua
 {
     public class Capicua
     {
-        public static void capicua()
+        public  void capicua()
         {
             Write("Ingresa un número: ");
             int num = 0;

@@ -3,7 +3,7 @@ namespace mediaLista
 {
     public class MediaLista
     {
-        public static void media()
+        public  void media()
         {
             Write("Introduce una lista de números separados por espacios: ");
             string? input = ReadLine();

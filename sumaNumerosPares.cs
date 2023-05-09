@@ -4,7 +4,7 @@ namespace sumaNumerosPares
 {
     public class SumaNumerosPares
     {
-        public static void suma()
+        public  void suma()
         {
 
             int suma = 0;

@@ -3,7 +3,7 @@ namespace eliminarDuplicados
 {
     public class EliminarDuplicados
     {
-        public static void eliminar()
+        public void eliminar()
         {
 
             Write("Introduce una lista de números separados por espacios: ");
@@ -29,6 +29,8 @@ namespace eliminarDuplicados
 
             WriteLine($"Números originales: {string.Join(", ", numerosInt)}");
             WriteLine($"Números no duplicados: {string.Join(", ", numerosSinDuplicados)}");
+
+
         }
 
     }

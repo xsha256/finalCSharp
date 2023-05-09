@@ -5,7 +5,7 @@ namespace cubo
 {
     public class Cubo
     {
-        public static void cubo()
+        public  void cubo()
         {
             double lado = 0, area, volumen;
 

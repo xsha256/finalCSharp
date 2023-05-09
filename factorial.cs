@@ -4,7 +4,7 @@ namespace factorial
 {
     public class Factorial
     {
-        public static void fact()
+        public  void fact()
         {
             int num = 0, factorial = 1;
 
