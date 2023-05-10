@@ -5,14 +5,14 @@ namespace anagrama
     {
         public  void anagrama()
         {
-            WriteLine("Introduce la cadena 1: ");
+            WriteLine("Introduce la cadena 1 (sin acentos): ");
             string? palabra1 = ReadLine();
             if (palabra1 == null)
             {
                 WriteLine("Palabra inválida");
                 return;
             }
-            WriteLine("Introduce la cadena 2: ");
+            WriteLine("Introduce la cadena 2 (sin acentos): ");
             string? palabra2 = ReadLine();
             if (palabra2 == null)
             {
